@@ -1,4 +1,4 @@
-const CONTENT_INFO = {
+export const CONTENT_INFO = {
     home: {
         h1: "Never Stop",
         h2: "Explore The World",

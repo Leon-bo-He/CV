@@ -1,3 +1,4 @@
+import {CONTENT_INFO} from "./data/content.js";
 const ACTIVE = 'active';
 
 const active_video = document.querySelectorAll(
@@ -75,4 +76,4 @@ function modify_content(index) {
         default:
             break;
     }
-}
+};
