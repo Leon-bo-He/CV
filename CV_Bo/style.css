@@ -42,7 +42,7 @@ html,
 body {
     all: unset;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-color: var(--main-background-color);
     color: var(--main-text-color);
