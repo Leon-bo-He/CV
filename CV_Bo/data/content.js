@@ -14,7 +14,7 @@ export const CONTENT_INFO = {
         h2: "Enjoy passionate time",
         p: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nam deserunt vel dolore rem expedita natus dolor accusantium accusamus tenetur, corporis a, possimus maxime recusandae? Odit repudiandae eligendi ut ea!"
     },
-    blog: {
+    life: {
         h1: "Autumn",
         h2: "Experience without limits",
         p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt quia. In, earum! Quae similique repellendus earum sint ratione animi veniam, libero, rerum optio, quam omnis ullam. Magni, sit illo."

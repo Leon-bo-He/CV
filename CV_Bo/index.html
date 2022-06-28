@@ -10,43 +10,64 @@
 <body>
     <section class="main-structure">
         <header>
-            <a href="#">
+            <a href="index.html">
                 <div class="logo">Hey, Here Is Bo</div>
             </a>
             <div class="menu-logo"></div>
         </header>
-        
+
         <div class="content">
-            <video src="./videos/spring.mp4" autoplay muted loop></video>
-            <video src="./videos/summer.mp4" autoplay muted loop></video>
-            <video src="./videos/autumn.mp4" autoplay muted loop></video>
-            <video src="./videos/winter.mp4" autoplay muted loop></video>
-            <video src="./videos/island.mp4" autoplay muted loop></video>
+            <video src="videos/spring.mp4" autoplay muted loop></video>
+            <video src="videos/summer.mp4" autoplay muted loop></video>
+            <video src="videos/autumn.mp4" autoplay muted loop></video>
+            <video src="videos/winter.mp4" autoplay muted loop></video>
+            <video src="videos/island.mp4" autoplay muted loop></video>
             <div class="video-overlay"></div>
 
-            <section class="text-description">
+            <section class="text-description" id="text1">
                 <h1></h1>
                 <h2></h2>
                 <p></p>
-                <a href="#"></a>
+                <a href="#" class="pa"></a>
             </section>
+            <section class="text-description" id="text2">
+                <embed src="pdf/Resume.pdf" width="800" height="500" href="pdf/Resume.pdf"></embed>
+                <br /><br />
+            </section>
+
+            <section class="text-description" id="text3" style="margin-top:-50px">
+                <div class="contactdiv">
+                    <div class="ct1"><img src="images/contact_photo.png" /></div>
+                    <div class="ct2">
+                        <form>
+                            <div class="pt">Contact Me</div>
+                            <div class="pp">Let us know if you want to host your event at Email to me</div>
+                            <div class="pinput"><input type="text" placeholder="YOUR NAME" /></div>
+                            <div class="pinput"><input type="text" placeholder="YOUR EMAIL" /></div>
+                            <div class="pmessage"><textarea placeholder="YOUR MESSAGE"></textarea></div>
+                            <div class="pbtn"><input type="button" value="SEND EMAIL" /></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
         </div>
-        
-        <footer>
-            <a href="#"><img src="./icons/linkedin-icon.svg" alt="LinkedIn"></a>
-            <a href="#"><img src="./icons/github-icon.svg" alt="GitHub"></a>
+
+        <footer style="padding-top:10px;padding-bottom:30px">
+            <a href="https://www.linkedin.com/in/bo-he-555abb238/"><img src="icons/linkedin-icon.svg" alt="LinkedIn"></a>
+            <a href="https://github.com/Leon-bo-He"><img src="icons/github-icon.svg" alt="GitHub"></a>
         </footer>
 
     </section>
     <section class="aside-menu">
-        <a href="#"><span>Home</span></a>
+        <a href="#" class="ha"><span>Home</span></a>
         <a href="#"><span>Resume</span></a>
         <a href="#"><span>Portfolio</span></a>
         <a href="#"><span>Blog</span></a>
         <a href="#"><span>Contact</span></a>
     </section>
     <script type="module"
-    src="./data/content.js"></script>
+    src="data/content.js"></script>
     
     <script type="module"
     src="script.js"></script>
