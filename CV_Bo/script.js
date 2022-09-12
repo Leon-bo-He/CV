@@ -1,4 +1,4 @@
-import {CONTENT_INFO} from "./data/content.js";
+import { CONTENT_INFO } from "./data/content.js";
 const ACTIVE = 'active';
 
 const active_video = document.querySelectorAll(
@@ -53,64 +53,54 @@ menu_button.forEach((button, index) => {
 function modify_content(index) {
     switch (index) {
         case 0:
+            document.getElementById("text1").style.display = "block";
             document.getElementById("text2").style.display = "none";
             document.getElementById("text3").style.display = "none";
-            document.getElementById("text1").style.display = "block";
-            main_header.innerHTML = CONTENT_INFO.home.h1;
-            second_header.innerHTML = CONTENT_INFO.home.h2;
-            paragraph.innerHTML = CONTENT_INFO.home.p;
+            document.getElementById("text4").style.display = "none";
+            document.getElementById("text5").style.display = "none";
+            document.getElementById("text1h1").innerHTML = CONTENT_INFO.home.h1;
+            document.getElementById("text1h2").innerHTML = CONTENT_INFO.home.h2;
+            document.getElementById("text1p").innerHTML = CONTENT_INFO.home.p;
             active_video_overlay.className = "video-overlay video-overlay-home";
-            text_link.className = "pa";
-            text_link.target = "";
-            text_link.href = "#";
             break;
         case 1:
-             //main_header.innerHTML = CONTENT_INFO.resume.h1;
-            //second_header.innerHTML = CONTENT_INFO.resume.h2;
-            //paragraph.innerHTML = CONTENT_INFO.resume.p;
             document.getElementById("text1").style.display = "none";
-            document.getElementById("text3").style.display = "none";
             document.getElementById("text2").style.display = "block";
+            document.getElementById("text3").style.display = "none";
+            document.getElementById("text4").style.display = "none";
+            document.getElementById("text5").style.display = "none";
             active_video_overlay.className = "video-overlay video-overlay-resume";
-            text_link.className = "pa2";
-            text_link.target = "";
-            text_link.href = "#";
             break;
         case 2:
+            document.getElementById("text1").style.display = "none";
             document.getElementById("text2").style.display = "none";
-            document.getElementById("text3").style.display = "none";
-            document.getElementById("text1").style.display = "block";
-            main_header.innerHTML = CONTENT_INFO.portfolio.h1;
-            second_header.innerHTML = CONTENT_INFO.portfolio.h2;
-            paragraph.innerHTML = CONTENT_INFO.portfolio.p;
+            document.getElementById("text3").style.display = "block";
+            document.getElementById("text4").style.display = "none";
+            document.getElementById("text5").style.display = "none";
+        
+            document.getElementById("text3h1").innerHTML = CONTENT_INFO.portfolio.h1;
+            document.getElementById("text3h2").innerHTML = CONTENT_INFO.portfolio.h2;
+            document.getElementById("text3p").innerHTML = CONTENT_INFO.portfolio.p;
             active_video_overlay.className = "video-overlay video-overlay-portfolio";
-            text_link.className = "pa3";
-            text_link.href = "http://portfolio.hebo.life";
-            text_link.target = "_blank";
             break;
         case 3:
+            document.getElementById("text1").style.display = "none";
             document.getElementById("text2").style.display = "none";
             document.getElementById("text3").style.display = "none";
-            document.getElementById("text1").style.display = "block";
-            main_header.innerHTML = CONTENT_INFO.life.h1;
-            second_header.innerHTML = CONTENT_INFO.life.h2;
-            paragraph.innerHTML = CONTENT_INFO.life.p;
+            document.getElementById("text4").style.display = "block";
+            document.getElementById("text5").style.display = "none";
+            document.getElementById("text4h1").innerHTML = CONTENT_INFO.life.h1;
+            document.getElementById("text4h2").innerHTML = CONTENT_INFO.life.h2;
+            document.getElementById("text4p").innerHTML = CONTENT_INFO.life.p;
             active_video_overlay.className = "video-overlay video-overlay-life";
-            text_link.className = "pa4";
-            text_link.href = "http://hebo.life";
-            text_link.target = "_blank";
             break;
         case 4:
-            document.getElementById("text2").style.display = "none";
             document.getElementById("text1").style.display = "none";
-            document.getElementById("text3").style.display = "block";
-            main_header.innerHTML = CONTENT_INFO.contact.h1;
-            second_header.innerHTML = CONTENT_INFO.contact.h2;
-            paragraph.innerHTML = CONTENT_INFO.contact.p;
+            document.getElementById("text2").style.display = "none";
+            document.getElementById("text3").style.display = "none";
+            document.getElementById("text4").style.display = "none";
+            document.getElementById("text5").style.display = "block";
             active_video_overlay.className = "video-overlay video-overlay-contact";
-            text_link.className = "pa5";
-            text_link.target = "";
-            text_link.href = "#";
             break;
         default:
             break;
