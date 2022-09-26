@@ -2,7 +2,7 @@ export const CONTENT_INFO = {
     home: {
         h1: "Never Stop",
         h2: "Explore The World",
-        p: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum reiciendis inventore laborum mollitia quisquam sint quas repellat id, atque officia totam iusto vitae nemo nam ad omnis. Provident, velit excepturi."
+        p: "Hey There! My name is Bo, I am a junior majoring in Computer Science and Mathematics at the University of Maryland, College Park. My interest areas are software development and Robotics. "
     },
     resume: {
         h1: " ",
@@ -11,13 +11,13 @@ export const CONTENT_INFO = {
     },
     portfolio: {
         h1: "Portfolio",
-        h2: "Exploring without limits",
-        p: "Lorem ipsum dolor. Quos nam deserunt vel dolore rem expedita natus dolor accusantium accusamus tenetur, corporis a, possimus maxime recusandae? Odit repudiandae eligendi ut ea!"
+        h2: "Change forever",
+        p: "This is the website for my personal notes and implemented projects. I will maintain this site for a long time, all study updates will goes here."
     },
     life: {
         h1: "Life",
-        h2: "Change forever",
-        p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nesciunt quia. In, earum! Quae similique repellendus earum sint ratione animi veniam, libero, rerum optio, quam omnis ullam. Magni, sit illo."
+        h2: "Exploring without limits",
+        p: "This is the website for my Blogs which is powered by Halo. Articles in there are written by Chinese and will have English translations in the future."
     },
     contact: {
         h1: " ",
